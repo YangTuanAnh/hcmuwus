@@ -6,6 +6,7 @@ import Home from './pages/home';
 import Article from './pages/article';
 import Help from './pages/help';
 import LastWords from './pages/lastwords';
+import Call from './pages/call';
 
 function App()
 {
@@ -23,12 +24,15 @@ function App()
             caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin mauris non magna congue pretium"
           />} />
           <Route path="help/" element={<Help />} />
-          <Route path="lastwords/" element={<LastWords />} />
+          <Route path="lastwords/">
+            <Route index element={<LastWords />} />
+            <Route path="call/" element={<Call />} />
+          </Route>
         </Route>
-      </Routes>
+      </Routes >
 
 
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 
