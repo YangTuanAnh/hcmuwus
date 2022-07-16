@@ -7,6 +7,9 @@ import Article from './pages/article';
 import Help from './pages/help';
 import LastWords from './pages/lastwords';
 import Call from './pages/call';
+import Profile from './pages/profile';
+import Login from './pages/login';
+import Register from './pages/register';
 
 function App()
 {
@@ -28,6 +31,9 @@ function App()
             <Route index element={<LastWords />} />
             <Route path="call/" element={<Call />} />
           </Route>
+          <Route path="profile/" element={<Profile />} />
+          <Route path="login/" element={<Login />} />
+          <Route path="register/" element={<Register />} />
         </Route>
       </Routes >
 
