@@ -25,6 +25,7 @@ class DesireModalForm extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         const { name, description } = this.state;
+        this.props.onSubmit({ name, description });
         this.setState({ name: "", description: "" });
     }
 
