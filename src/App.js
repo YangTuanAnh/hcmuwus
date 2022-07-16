@@ -14,7 +14,7 @@ import Register from './pages/register';
 function App()
 {
   return (
-    <BrowserRouter basename="/hcmuwus">
+    <BrowserRouter>
       <Nav />
 
       <Routes>
