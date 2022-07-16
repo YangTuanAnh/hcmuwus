@@ -1,9 +1,13 @@
 import React from "react";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 function LastWords()
 {
     return (
-        <img class="m-auto my-40" src="/images/loiguigio.svg" />
+        <section class="p-20">
+            <SearchBar />
+            <img class="m-auto my-20" src="/images/loiguigio.svg" />
+        </section>
     )
 }
 

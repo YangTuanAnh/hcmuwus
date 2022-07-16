@@ -4,6 +4,7 @@ import CardAudio from "../components/Card/CardAudio";
 import Footer from "../components/Footer/Footer";
 import GreetingBox from "../components/GreetingBox/GreetingBox";
 import Quote from "../components/Quote/Quote";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 function Home()
 {
@@ -40,6 +41,7 @@ function Home()
                     message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin mauris non magna congue pretium"
                     author="Nguyễn Văn A"
                 />
+                <SearchBar />
                 <div class="grid lg:grid-cols-4 grid-cols-2">
                     {
                         tasks.map((task, index) =>
