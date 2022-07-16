@@ -4,14 +4,14 @@ function GreetingBox(props)
 {
     if (props.avatar == undefined) {
         return (
-            <div class="font-bold text-xl">
+            <div class="font-bold text-xl mx-8 my-4">
                 {props.message}
             </div>
         )
     }
     return (
         <div class="flex">
-            <div class="flex-1 font-bold text-xl    ">{props.message}</div>
+            <div class="flex-1 font-bold text-xl">{props.message}</div>
             <div class="auto"><img href={props.avatar}>Avatar</img></div>
         </div>
     )
