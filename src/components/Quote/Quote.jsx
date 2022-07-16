@@ -22,8 +22,7 @@ function Quote(props)
         </div>
         
         </div>
-
-    )
+    );
 }
 
 export default Quote
