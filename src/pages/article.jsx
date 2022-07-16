@@ -30,6 +30,10 @@ function Article(props)
                         "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
                         "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
                         "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
+                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
+                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
+                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
+                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
                         "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg"
                     ]}
                 />

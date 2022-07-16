@@ -14,12 +14,12 @@ function CardComment(props)
 
 
 
-            <div class="mt-4 grid grid-cols-6 gap-2">
+            <div class="mt-4 grid lg:grid-cols-8 lg:gap-4 grid-cols-4 gap-2">
                 {
                     props.album.map((image, index) =>
                     {
                         return (
-                            <img class="aspect-auto rounded-lg" src={image} alt={"Image " + index} />
+                            <img class="aspect-square rounded-lg" src={image} alt={"Image " + index} />
                         )
 
                     })
