@@ -4,6 +4,8 @@ import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import Home from './pages/home';
 import Article from './pages/article';
+import Help from './pages/help';
+import LastWords from './pages/lastwords';
 
 function App()
 {
@@ -20,6 +22,8 @@ function App()
             numberOfCompletion="500"
             caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin mauris non magna congue pretium"
           />} />
+          <Route path="help/" element={<Help />} />
+          <Route path="lastwords/" element={<LastWords />} />
         </Route>
       </Routes>
 

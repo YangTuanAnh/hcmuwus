@@ -7,9 +7,18 @@ function Nav()
             <h1 class="font-bold text-xl mr-8">
                 Pacificae
             </h1>
-            <div class="flex text-base">
+            <div class="flex text-base gap-4">
                 <a href="/">
-                    Home
+                    Trang Chủ
+                </a>
+                <a href="/lastwords">
+                    Lời Gửi Gió
+                </a>
+                <a href="/help">
+                    Trợ Giúp
+                </a>
+                <a href="/">
+                    Trang Cá Nhân
                 </a>
             </div>
         </nav>
