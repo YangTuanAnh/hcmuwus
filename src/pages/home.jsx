@@ -1,11 +1,17 @@
 import React from "react";
+import Footer from "../components/Footer/Footer";
 
 function Home()
 {
     return (
-        <section class="bg-red-200">
-            Hello World
-        </section>
+        <div>
+            <section class="bg-red-200">
+                Hello World
+
+            </section>
+            <Footer />
+        </div>
+
     )
 }
 
