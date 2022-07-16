@@ -3,7 +3,7 @@ import React from "react";
 function Home()
 {
     return (
-        <section>
+        <section class="bg-red-200">
             Hello World
         </section>
     )
