@@ -24,6 +24,8 @@ class RelicModalForm extends React.Component {
     handleSubmit(event) {
         event.preventDefault();
         const { description } = this.state;
+        const file = this.fileInput.current.files[0];
+        this.props.onSubmit({description, file} );
         this.setState({ description: "" });
     }
 
