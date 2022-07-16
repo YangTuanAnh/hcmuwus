@@ -11,7 +11,7 @@ function Nav()
                 <a href="/">
                     Trang Chủ
                 </a>
-                <a href="/lastwords">
+                <a href="#/lastwords">
                     Lời Gửi Gió
                 </a>
                 <a href="/help">
