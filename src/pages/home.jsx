@@ -3,6 +3,7 @@ import Card from "../components/Card/Card";
 import CardAudio from "../components/Card/CardAudio";
 import Footer from "../components/Footer/Footer";
 import GreetingBox from "../components/GreetingBox/GreetingBox";
+import HintBox from "../components/HintBox/HintBox";
 import Quote from "../components/Quote/Quote";
 import SearchBar from "../components/SearchBar/SearchBar";
 
@@ -42,6 +43,7 @@ function Home()
                     author="Nguyễn Văn A"
                 />
                 <SearchBar />
+                <HintBox />
                 <div class="grid lg:grid-cols-4 grid-cols-2">
                     {
                         tasks.map((task, index) =>
@@ -49,7 +51,7 @@ function Home()
                             return (
                                 <Card
                                     taskTitle={task.taskTitle}
-                                    headerImage={task.headerImage}
+                                    headerImage={task.headerImage}d
                                 />
                             )
                         })
