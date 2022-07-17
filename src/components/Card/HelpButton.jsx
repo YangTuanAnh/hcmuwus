@@ -5,7 +5,7 @@ function HelpButton(props)
     return (
         <a href={props.link || "#"}>
 
-            <div class="shadow-lg rounded-md m-8 p-4 content-center hover:bg-slate-200">
+            <div class="shadow-lg rounded-md mt-4 p-4 content-center hover:bg-slate-200">
 
                 <div class="flex space gap-4">
                     <div style={{ "max-width": "4em" }} class="">

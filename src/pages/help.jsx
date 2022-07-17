@@ -3,14 +3,16 @@ import Card from "../components/Card/Card";
 import GreetingBox from "../components/GreetingBox/GreetingBox";
 import Quote from "../components/Quote/Quote";
 import HelpButton from "../components/Card/HelpButton";
+import SearchBar from "../components/SearchBar/SearchBar";
 
 
 function Help()
 {
     return (
-        <section class="bg-grey-200 lg:p-20">
+        <section class="bg-grey-200 lg:p-20 p-8">
             <div class="flex flex-col align-center">
-                <p class="lg:text-center font-bold p-4 text-3xl text-blue-800">Nhận sự giúp đỡ từ</p>
+                <SearchBar />
+                <h2 class="lg:text-center font-bold p-4 text-3xl text-blue-800">Nhận sự giúp đỡ từ</h2>
                 <div>
                     <HelpButton
                         description="Bác sĩ tâm lí"
