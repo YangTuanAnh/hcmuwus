@@ -18,7 +18,7 @@ function Home()
                     message="Chào buổi sáng, Tony!"
                 />
                 <Quote
-                    imageSrc="http://cmavn.org/wp-content/uploads/2016/12/bien-kich-nick-hornby.jpg"
+                    imageSrc="https://wp.penguin.co.uk/wp-content/uploads/2020/09/Nick-Hornby.jpg"
                     message="Anyone and everyone taking a writing class knows that the secret of good writing is to cut it back, pare it down, winnow, chop, hack, prune, and trim, remove every superfluous word, compress, compress, compress..."
                     author="- Nick Hornby"
                 />
