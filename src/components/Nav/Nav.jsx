@@ -3,7 +3,7 @@ import React from "react";
 function Nav()
 {
     return (
-        <nav class="flex items-center justify-between flex-wrap p-4 fixed w-full z-50 shadow-lg bg-white lg:top-0 bottom-0 lg:h-16 h-32">
+        <nav class="flex items-center justify-between flex-wrap p-4 fixed w-full z-50 shadow-lg bg-white lg:top-0 bottom-0 lg:h-16 h-40">
             <a href="/">
                 <img src="images/logo.svg" class="h-10 inline-block" />
             </a>
