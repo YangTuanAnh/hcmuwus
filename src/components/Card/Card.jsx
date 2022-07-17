@@ -6,7 +6,7 @@ function Card(props)
     return (
         <div class="m-4 min-w-min bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <a href={`/article/${props.id}`}>
-                <img class="rounded-t-lg w-fill h-52 object-cover" src={props.headerImage} alt=""></img>
+                <img class="rounded-t-lg w-full h-72 object-cover" src={props.headerImage} alt=""></img>
             </a>
             <div class="p-5">
                 <a href="#">
