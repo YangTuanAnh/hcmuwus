@@ -3,9 +3,9 @@ import React from "react";
 function Nav()
 {
     return (
-        <nav class="flex items-center justify-between flex-wrap p-4 fixed w-full z-50 shadow-lg bg-white lg:top-0 bottom-0 lg:h-16 h-36">
+        <nav class="flex items-center justify-between flex-wrap p-4 fixed w-full z-50 shadow-lg bg-white lg:top-0 bottom-0 lg:h-16 h-32">
             <a href="/">
-                <img src="images/logo.svg" class="h-10 inline-block" />
+                <img src="./images/logo.svg" class="h-10 inline-block" />
             </a>
             <div class="flex text-lg gap-4">
                 <a href="/">

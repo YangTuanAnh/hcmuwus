@@ -16,12 +16,12 @@ function Call()
                 </a>
 
                 <div class="grid grid-cols-2">
-                    <div class="py-24 bottom-0 fixed">
+                    <div class="lg:py-24 py-40 bottom-0 fixed">
                         <h3 class="font-bold text-3xl text-white mb-2">Pepper Potts</h3>
                         <p class="font-light text-lg text-white mb-4">Vợ</p>
                         <span class="py-2 px-4 bg-gray-400 rounded-xl">00:21:45</span>
                     </div>
-                    <Lottie class="m-auto right-0 bottom-0 fixed mr-8 py-16" animationData={Phone} />
+                    <Lottie class="m-auto right-0 bottom-0 fixed mr-8 lg:py-16 py-32" animationData={Phone} />
                 </div>
 
 
