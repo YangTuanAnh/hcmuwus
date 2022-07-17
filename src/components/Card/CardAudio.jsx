@@ -7,7 +7,7 @@ function CardAudio(props)
             <div class="grid grid-cols-2">
                 <div>
                     <h3 class="text-lg font-bold m-2">{props.caption}</h3>
-                    <audio controls>
+                    <audio controls style={{ width: "100%" }}>
                         <source src={props.audio} type="audio/mpeg" />
                         Your browser does not support the audio element.
                     </audio>
