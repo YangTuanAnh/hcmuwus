@@ -48,7 +48,7 @@ function Assistant()
                     return (
                         <div class="rounded-lg shadow-lg flex p-4 hover:bg-gray-100 my-4">
                             <img class="h-10 object-cover" src={item.icon} alt={item.name} />
-                            <p class="flex-1 text-xl p-2">{item.name}</p>
+                            <p class="flex-1 lg:text-xl text-base p-2">{item.name}</p>
                             <img class="flex-8 float-right mt-4 h-4 object-cover" src="https://img.icons8.com/fluency-systems-filled/344/dots-loading.png" />
                         </div>
                     )
