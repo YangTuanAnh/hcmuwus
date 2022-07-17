@@ -6,7 +6,7 @@ function Call()
 {
     return (
         <section class="bg-cover h-fill" style={{
-            backgroundImage: `url("https://thumbs.dreamstime.com/b/mature-lady-relaxed-smiling-elder-woman-isolated-white-back-35307581.jpg")`
+            backgroundImage: `url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2021%2F03%2F05%2FIron-Man.jpg")`
         }}>
             <div class="bg-gradient-to-t h-screen from-gray-600 to-transparent lg:p-20 p-8">
                 <a href="/lastwords">
@@ -17,8 +17,8 @@ function Call()
 
                 <div class="grid grid-cols-2">
                     <div class="py-24 bottom-0 fixed">
-                        <h3 class="font-bold text-3xl text-white mb-2">Nguyễn Thị B</h3>
-                        <p class="font-light text-lg text-white mb-4">Bà Nội</p>
+                        <h3 class="font-bold text-3xl text-white mb-2">Pepper Potts</h3>
+                        <p class="font-light text-lg text-white mb-4">Vợ</p>
                         <span class="py-2 px-4 bg-gray-400 rounded-xl">00:21:45</span>
                     </div>
                     <Lottie class="m-auto right-0 bottom-0 fixed mr-8 py-16" animationData={Phone} />

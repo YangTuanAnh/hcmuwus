@@ -6,9 +6,9 @@ import React from "react";
 function Hint(props)
 {
     return (
-        <a href={props.href}>
-        <div type="button" href={props.href}
-            className="mx-4 w-full lg:w-fit text-stone-700 border border-purple-400 hover:bg-purple-700 hover:text-white font-medium rounded-2xl text-sm p-2.5 border-2">
+        <a href={props.href} className="grow w-fill md:w-fit lg:w-fit mx-4">
+        <div type="button"
+            className="text-stone-700 border border-purple-400 hover:bg-purple-700 hover:text-white font-medium rounded-2xl text-sm p-2.5 border-2">
         <div className="flex flex-row items-center gap-4">
             <img className="w-10 h-10 text-purple-400" src={props.icon} />
             <p className="text-left">
@@ -35,7 +35,7 @@ class HintBox extends React.Component
                 <div className="flex flex-row flex-wrap content-center align-center items-center justify-center my-4 gap-4">
                 <Hint 
                     text="Tôi muốn hiện thực hóa ước nguyện"
-                    icon="/user.svg"
+                    icon="/book.svg"
                     href="/" />
                 <Hint
                     text="Gửi lời yêu thương cho gió"

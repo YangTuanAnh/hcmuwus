@@ -14,10 +14,11 @@ function Home()
         <div>
             <section class="lg:p-20">
                 <GreetingBox
-                    avatar="https://thumbs.dreamstime.com/b/mature-lady-relaxed-smiling-elder-woman-isolated-white-back-35307581.jpg"
-                    message="Chào buổi sáng, Dianna"
+                    avatar="https://assets.puzzlefactory.pl/puzzle/387/881/original.jpg"
+                    message="Chào buổi sáng, Tony!"
                 />
                 <Quote
+                    imageSrc="http://cmavn.org/wp-content/uploads/2016/12/bien-kich-nick-hornby.jpg"
                     message="Anyone and everyone taking a writing class knows that the secret of good writing is to cut it back, pare it down, winnow, chop, hack, prune, and trim, remove every superfluous word, compress, compress, compress..."
                     author="- Nick Hornby"
                 />

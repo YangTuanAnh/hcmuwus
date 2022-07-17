@@ -26,19 +26,13 @@ function Article()
                     Chia sẻ từ cộng đồng
                 </h2>
                 <CardComment
-                    avatar="https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg"
-                    name="Nguyễn Văn A"
-                    caption="Đi dạo với cháu ngoại ở công viên"
+                    avatar="https://kenh14cdn.com/thumb_w/660/2017/photo-1-1500885523722.jpg"
+                    name="Peter Parker"
+                    caption="Cháu nhận được rồi"
                     album={[
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg",
-                        "https://www.funfactsabout.com/wp-content/uploads/2021/11/fun-facts-skiing.jpg"
-                    ]}
+                        "https://m.media-amazon.com/images/I/61+Y4gbK09L._AC_UY1000_.jpg",
+                        "https://i.ytimg.com/vi/zIJ8Y64ieaQ/maxresdefault.jpg"
+                        ]}
                 />
             </div>
         </section>
