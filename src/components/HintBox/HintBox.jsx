@@ -6,18 +6,19 @@ import React from "react";
 function Hint(props)
 {
     return (
+        <a href={props.href}>
         <div type="button" href={props.href}
-            className="mx-4 w-fill text-stone-700 border border-purple-400 hover:bg-purple-700 hover:text-white font-medium rounded-2xl text-sm p-2.5 border-2">
-            <div className="flex flex-row items-center">
-                <svg className="w-10 h-10 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns={props.icon}>
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <p className="text-left">
-                    {props.text}
-                </p>
-                <span className="sr-only">Icon description</span>
-            </div>
+            className="mx-4 w-full lg:w-fit text-stone-700 border border-purple-400 hover:bg-purple-700 hover:text-white font-medium rounded-2xl text-sm p-2.5 border-2">
+        <div className="flex flex-row items-center gap-4">
+            <img className="w-10 h-10 text-purple-400" src={props.icon} />
+            <p className="text-left">
+                {props.text}                
+            </p>
+            <span className="sr-only">Icon description</span>
         </div>
+        </div>
+        </a>
+
     )
 }
 
@@ -30,23 +31,24 @@ class HintBox extends React.Component
                 <h1 className="px-4 text-2xl font-bold italic">
                     Bạn muốn được giúp đỡ:
                 </h1>
-                <div className="grid lg:grid-cols-4 grid-cols-2 my-4 gap-4">
-                    <Hint
-                        text="Tôi muốn thực hiện hóa ước nguyện"
-                        icon="http://www.w3.org/2000/svg"
-                        href="#" />
-                    <Hint
-                        text="Gửi lời yêu thương cho gió"
-                        icon="http://www.w3.org/2000/svg"
-                        href="#" />
-                    <Hint
-                        text="Từ chuyên gia, cơ quan chức năng"
-                        icon="http://www.w3.org/2000/svg"
-                        href="#" />
-                    <Hint
-                        text="Chuẩn bị hậu sự cho bản thân"
-                        icon="http://www.w3.org/2000/svg"
-                        href="#" />
+
+                <div className="flex flex-row flex-wrap content-center align-center items-center justify-center my-4 gap-4">
+                <Hint 
+                    text="Tôi muốn hiện thực hóa ước nguyện"
+                    icon="/user.svg"
+                    href="/" />
+                <Hint
+                    text="Gửi lời yêu thương cho gió"
+                    icon="wind.svg"
+                    href="lastwords" />
+                <Hint
+                    text="Từ chuyên gia, cơ quan chức năng"
+                    icon="pill.svg"
+                    href="/help" />
+                <Hint
+                    text="Chuẩn bị hậu sự cho bản thân"
+                    icon="user.svg"
+                    href="/profile" />
                 </div>
             </section>
 
