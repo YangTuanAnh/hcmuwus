@@ -5,51 +5,31 @@ import Footer from "../components/Footer/Footer";
 import GreetingBox from "../components/GreetingBox/GreetingBox";
 import Quote from "../components/Quote/Quote";
 import SearchBar from "../components/SearchBar/SearchBar";
+import Wishes from "../data/wishes.json"
 
 function Home()
 {
-    const tasks = [
-        {
-            "taskTitle": "Đi dạo với cháu ngoại ở công viên",
-            "headerImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        },
-        {
-            "taskTitle": "Đi dạo với cháu ngoại ở công viên",
-            "headerImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        },
-        {
-            "taskTitle": "Đi dạo với cháu ngoại ở công viên",
-            "headerImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        },
-        {
-            "taskTitle": "Đi dạo với cháu ngoại ở công viên",
-            "headerImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        },
-        {
-            "taskTitle": "Đi dạo với cháu ngoại ở công viên",
-            "headerImage": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        },
-    ]
     return (
         <div>
             <section class="lg:p-20">
                 <GreetingBox
-                    avatar="https://cdn.psychologytoday.com/sites/default/files/styles/article-inline-half-caption/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=0hb44OrI"
-                    message="Chào buổi sáng, A"
+                    avatar="https://thumbs.dreamstime.com/b/mature-lady-relaxed-smiling-elder-woman-isolated-white-back-35307581.jpg"
+                    message="Chào buổi sáng, Dianna"
                 />
                 <Quote
-                    message="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sollicitudin mauris non magna congue pretium"
-                    author="Nguyễn Văn A"
+                    message="Anyone and everyone taking a writing class knows that the secret of good writing is to cut it back, pare it down, winnow, chop, hack, prune, and trim, remove every superfluous word, compress, compress, compress..."
+                    author="- Nick Hornby"
                 />
                 <SearchBar />
                 <div class="grid lg:grid-cols-4 grid-cols-2">
                     {
-                        tasks.map((task, index) =>
+                        Wishes.map((task, index) =>
                         {
                             return (
                                 <Card
                                     taskTitle={task.taskTitle}
                                     headerImage={task.headerImage}
+                                    id={index}
                                 />
                             )
                         })

@@ -1,10 +1,11 @@
 import React from "react";
+import Wishes from "../../data/wishes.json"
 
 function Card(props)
 {
     return (
         <div class="m-4 min-w-min bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-            <a href="/article">
+            <a href={`/article/${props.id}`}>
                 <img class="rounded-t-lg" src={props.headerImage} alt=""></img>
             </a>
             <div class="p-5">
