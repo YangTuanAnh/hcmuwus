@@ -12,7 +12,7 @@ function Home()
 {
     return (
         <div>
-            <section class="lg:p-20">
+            <section class="lg:p-20 mb-32 p-8">
                 <GreetingBox
                     avatar="https://assets.puzzlefactory.pl/puzzle/387/881/original.jpg"
                     message="Chào buổi sáng, Tony!"

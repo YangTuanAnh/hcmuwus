@@ -7,7 +7,7 @@ function Article()
 {
     const props = Wishes[useParams().id]
     return (
-        <section class="lg:p-20 pb-16">
+        <section class="lg:p-20 mb-32 p-8">
             <img
                 src={props.headerImage}
                 alt={props.taskTitle}
@@ -32,7 +32,7 @@ function Article()
                     album={[
                         "https://m.media-amazon.com/images/I/61+Y4gbK09L._AC_UY1000_.jpg",
                         "https://i.ytimg.com/vi/zIJ8Y64ieaQ/maxresdefault.jpg"
-                        ]}
+                    ]}
                 />
             </div>
         </section>

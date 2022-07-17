@@ -9,7 +9,7 @@ import CardAudio from "../components/Card/CardAudio";
 function Profile()
 {
     return (
-        <section class="lg:p-20 p-8 pb-16">
+        <section class="lg:p-20 p-8 mb-32">
             <CardProfile
                 headerImage=""
                 name="Tony Stark"

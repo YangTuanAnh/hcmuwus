@@ -9,7 +9,7 @@ import SearchBar from "../components/SearchBar/SearchBar";
 function Help()
 {
     return (
-        <section class="bg-grey-200 lg:p-20 p-8">
+        <section class="bg-grey-200 lg:p-20 p-8 pb-32">
             <div class="flex flex-col align-center">
                 <SearchBar />
                 <h2 class="lg:text-center font-bold p-4 text-3xl text-blue-800">Nhận sự giúp đỡ từ</h2>
